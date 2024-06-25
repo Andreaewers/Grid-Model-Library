@@ -8,10 +8,17 @@ Provided data includes modified grid models in uct file format ([format descript
 Until the upcoming work is published, please use this citation:
 
 ```
-@unpublished{Ewerszumrode_2024,
-author  = {Ewerszumrode, Andrea},
-title   = {An iterative approach to grid topology and redispatch optimization in congestion management},
-year    = {2024},
-note    = {Unpublished manuscript},
+@article{EWERSZUMRODE2024110700,
+title = {An iterative approach to grid topology and redispatch optimization in congestion management},
+journal = {Electric Power Systems Research},
+volume = {234},
+pages = {110700},
+year = {2024},
+issn = {0378-7796},
+doi = {https://doi.org/10.1016/j.epsr.2024.110700},
+url = {https://www.sciencedirect.com/science/article/pii/S0378779624005868},
+author = {Andrea Ewerszumrode and Niklas Erle and Simon Krahl and Albert Moser},
+keywords = {Approximation algorithms, Linearized models, Redispatch optimization, Topology optimization},
+abstract = {The selection of Remedial Actions (RA) to ensure system security is a highly complex task performed by Transmission System Operators (TSOs). Phase shifting transformer (PST) tap changes and active power changes of generation units (redispatch) are some RA available in Security Constrained Optimal Power Flow (SCOPF) simulations within the operational planning processes. Topological RA are not part of these SCOPF yet, as the optimization thereof adds high complexity to the existing optimization problem. To overcome this complexity, this paper introduces an iterative approach that decouples topology optimization from redispatch & PST optimization. Linearized models of RA are used to meet computation time requirements. Exemplary investigations of the presented method were performed based on modified IEEE 39-Bus, 118-Bus and PEGASE-1354-Bus grid models. Within the scope of these investigations, the method shows good results and a great potential for the reduction of congestions and required redispatch through topological RA. In order to eliminate inaccuracies of the approach and to further improve its suitability for use in grid operation, a need for future investigations and possible further developments were identified.}
 }
 ```
